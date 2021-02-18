@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/login_screen.dart';
 
 class App extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -10,7 +11,7 @@ class App extends StatelessWidget {
             child: Text('LOGIN'),
           ),
         ),
-        body: Text('DEMO TEXT'),
+        body: LoginScreen(),
       ),
     );
   }
